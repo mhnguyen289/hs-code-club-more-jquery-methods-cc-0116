@@ -1,7 +1,4 @@
----
-tags: jquery, javascript
-languages: javascript, html, css
----
+
 
 # Traffic Light
 
