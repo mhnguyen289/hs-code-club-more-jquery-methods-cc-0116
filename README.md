@@ -40,7 +40,7 @@ Try clicking the `Turn Red` and `Say Stop` buttons. You should see the red light
 
 Let's start with the `Turn Yellow` button. You know you need a click event that will be triggered when the user clicks the button. If you look at the HTML, you can see the button has an ID of `button3` which you can use as our jQuery selector.
 
-```HTML
+```html
  <button id="button3">Turn Yellow</button>
 ```
 
@@ -55,7 +55,7 @@ $('#button3').click(function() {
 Now, you need to write the code that will be trigged when the user does click the button - which is to fill in the background of the middle light with the color yellow.
 
 If you look at the HTML, you see the following:
-```HTML
+```html
 <span id="middle-light"></span>
 
 ```
